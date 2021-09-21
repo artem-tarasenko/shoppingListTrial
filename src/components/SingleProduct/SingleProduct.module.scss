@@ -1,0 +1,43 @@
+
+.product {
+  // border: 1px solid #dedede;
+  // padding: 10px;
+  display: grid;
+  grid-template-columns: 20px 1fr;
+  grid-gap: 5px;
+  align-items: center;
+
+  p {
+    padding: 0;
+    margin: 5px;
+    pointer-events: none;
+    color: #5a6c7b;
+    font-size: 18px;
+
+    &.selected {
+      color: #b8c8d6;
+    }
+  }
+
+  input {
+    height: 20px;
+    width: 20px;
+  }
+
+  button {
+    background-color: rgb(223, 234, 245);
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      background-color: rgb(243, 245, 250);
+    }
+
+
+  }
+}
